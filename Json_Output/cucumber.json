@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 103080,
+              "duration": 106856,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 51351,
+              "duration": 48330,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 4249664425,
+              "duration": 4736118521,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
         "after": [
           {
             "result": {
-              "duration": 919642476,
+              "duration": 975231070,
               "status": "passed"
             },
             "match": {
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 38135,
+              "duration": 33605,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 50218,
+              "duration": 35492,
               "status": "passed"
             },
             "match": {
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 245347543,
+              "duration": 166701593,
               "status": "passed"
             },
             "line": 14,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 2679796288,
+              "duration": 2566132352,
               "status": "passed"
             },
             "line": 15,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 23785331,
+              "duration": 22882158,
               "status": "passed"
             },
             "line": 16,
@@ -124,7 +124,7 @@
         "before": [
           {
             "result": {
-              "duration": 33227,
+              "duration": 50974,
               "status": "passed"
             },
             "match": {
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 32472,
+              "duration": 57393,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 3066837862,
+              "duration": 3783470188,
               "status": "passed"
             },
             "match": {
@@ -157,7 +157,7 @@
         "after": [
           {
             "result": {
-              "duration": 782177728,
+              "duration": 779621127,
               "status": "passed"
             },
             "match": {
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 30207,
+              "duration": 32472,
               "status": "passed"
             },
             "match": {
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 16614,
+              "duration": 14348,
               "status": "passed"
             },
             "match": {
@@ -188,7 +188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20498112,
+              "duration": 19138065,
               "error_message": "java.lang.Exception: Test data cannot find . . .\r\n\tat commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)\r\n\tat stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)\r\n\tat ✽.Given user is already on Login Page for \"TestCase_1\" with \"2\"(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)\r\n",
               "status": "failed"
             },
@@ -241,7 +241,7 @@
         "before": [
           {
             "result": {
-              "duration": 25298,
+              "duration": 21522,
               "status": "passed"
             },
             "match": {
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 18879,
+              "duration": 18124,
               "status": "passed"
             },
             "match": {
@@ -259,7 +259,7 @@
           },
           {
             "result": {
-              "duration": 3084583787,
+              "duration": 3052672537,
               "status": "passed"
             },
             "match": {
@@ -274,7 +274,7 @@
         "after": [
           {
             "result": {
-              "duration": 943316044,
+              "duration": 957985439,
               "status": "passed"
             },
             "match": {
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 27186,
+              "duration": 89109,
               "status": "passed"
             },
             "match": {
@@ -292,7 +292,7 @@
           },
           {
             "result": {
-              "duration": 19634,
+              "duration": 90997,
               "status": "passed"
             },
             "match": {
@@ -305,7 +305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 113713399,
+              "duration": 27412751,
               "status": "passed"
             },
             "line": 14,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 1828917336,
+              "duration": 2483168009,
               "status": "passed"
             },
             "line": 15,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 23098134,
+              "duration": 21032767,
               "status": "passed"
             },
             "line": 16,

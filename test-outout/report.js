@@ -71,15 +71,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 103080,
+  "duration": 106856,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51351,
+  "duration": 48330,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4249664425,
+  "duration": 4736118521,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,45 +123,45 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 245347543,
+  "duration": 166701593,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 2679796288,
+  "duration": 2566132352,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 23785331,
+  "duration": 22882158,
   "status": "passed"
 });
 formatter.after({
-  "duration": 919642476,
+  "duration": 975231070,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38135,
+  "duration": 33605,
   "status": "passed"
 });
 formatter.after({
-  "duration": 50218,
+  "duration": 35492,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33227,
+  "duration": 50974,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32472,
+  "duration": 57393,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3066837862,
+  "duration": 3783470188,
   "status": "passed"
 });
 formatter.scenario({
@@ -205,7 +205,7 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 20498112,
+  "duration": 19138065,
   "error_message": "java.lang.Exception: Test data cannot find . . .\r\n\tat commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)\r\n\tat stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)\r\n\tat ✽.Given user is already on Login Page for \"TestCase_1\" with \"2\"(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)\r\n",
   "status": "failed"
 });
@@ -222,27 +222,27 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 782177728,
+  "duration": 779621127,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30207,
+  "duration": 32472,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16614,
+  "duration": 14348,
   "status": "passed"
 });
 formatter.before({
-  "duration": 25298,
+  "duration": 21522,
   "status": "passed"
 });
 formatter.before({
-  "duration": 18879,
+  "duration": 18124,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3084583787,
+  "duration": 3052672537,
   "status": "passed"
 });
 formatter.scenario({
@@ -286,33 +286,33 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 113713399,
+  "duration": 27412751,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 1828917336,
+  "duration": 2483168009,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 23098134,
+  "duration": 21032767,
   "status": "passed"
 });
 formatter.after({
-  "duration": 943316044,
+  "duration": 957985439,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27186,
+  "duration": 89109,
   "status": "passed"
 });
 formatter.after({
-  "duration": 19634,
+  "duration": 90997,
   "status": "passed"
 });
 });

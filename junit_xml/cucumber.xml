@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.981825">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="8.118479">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="19.592166">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="8.46729">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "1"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="3.869626">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="4.582385">
 <failure message="java.lang.Exception: Test data cannot find . . .&#13;&#10;&#9;at commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)&#13;&#10;&#9;at ✽.Given user is already on Login Page for &quot;TestCase_1&quot; with &quot;2&quot;(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)&#13;&#10;"><![CDATA[Given user is already on Login Page for "TestCase_1" with "2"...............failed
 Then user enters username and password......................................skipped
 Then user clicks on login...................................................skipped
@@ -18,7 +18,7 @@ java.lang.Exception: Test data cannot find . . .
 	at ✽.Given user is already on Login Page for "TestCase_1" with "2"(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)
 ]]></failure>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="5.99372">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="6.542491">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
