@@ -1,20 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.088351">
-<testcase classname="Test Tagged Hooks" name="This is First test" time="0.08679">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.981825">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="8.118479">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "1"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is Second test" time="0.000874">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
-]]></system-out>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="3.869626">
+<failure message="java.lang.Exception: Test data cannot find . . .&#13;&#10;&#9;at commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)&#13;&#10;&#9;at ✽.Given user is already on Login Page for &quot;TestCase_1&quot; with &quot;2&quot;(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)&#13;&#10;"><![CDATA[Given user is already on Login Page for "TestCase_1" with "2"...............failed
+Then user enters username and password......................................skipped
+Then user clicks on login...................................................skipped
+
+StackTrace:
+java.lang.Exception: Test data cannot find . . .
+	at commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)
+	at stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)
+	at ✽.Given user is already on Login Page for "TestCase_1" with "2"(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)
+]]></failure>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is Third test" time="0.000687">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="5.99372">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
