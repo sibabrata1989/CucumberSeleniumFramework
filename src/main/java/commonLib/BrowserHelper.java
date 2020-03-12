@@ -36,15 +36,16 @@ public class BrowserHelper
 	}
 	
 	//Method 2 : Screenshot saving method
-	public static void SaveScreenshot(String tcName, WebDriver driver)
+	public static void SaveScreenshot(boolean flag, String tcName, WebDriver driver)
 	{
 		try
 		{
-			//import java.nio.file.Files;
-			Files.createDirectories(Paths.get(TestConfig.testRunDir + tcName));
-			String ssFileName = TestConfig.testRunDir + tcName + "/" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(new Date()) + ".jpg";
-			File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(ss, new File(ssFileName));
+			if(flag) {
+				Files.createDirectories(Paths.get(TestConfig.testRunDir + tcName));
+				String ssFileName = TestConfig.testRunDir + tcName + "/" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(new Date()) + ".jpg";
+				File ss = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+				FileUtils.copyFile(ss, new File(ssFileName));
+			}
 			
 		} catch (Exception e)
 		{

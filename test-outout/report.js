@@ -71,15 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 106856,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 48330,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 4736118521,
+  "duration": 3703170056,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,45 +115,29 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 166701593,
+  "duration": 678796831,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 2566132352,
-  "status": "passed"
+  "duration": 12131451772,
+  "error_message": "java.lang.AssertionError: The user login failed!no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email1\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLB-332V0X2\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\SSwain5\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7671b83b3d055d956be1a13b6dd5657a\n*** Element info: {Using\u003dname, value\u003demail1}\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:88)\r\n\tat ✽.Then user enters username and password(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:15)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 22882158,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 975231070,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 33605,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 35492,
+  "duration": 1033293574,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50974,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 57393,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3783470188,
+  "duration": 2891473052,
   "status": "passed"
 });
 formatter.scenario({
@@ -205,44 +181,29 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 19138065,
-  "error_message": "java.lang.Exception: Test data cannot find . . .\r\n\tat commonLib.ExcelHandler.getTestDataInMap(ExcelHandler.java:38)\r\n\tat stepDefinitions.LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(LoginStepDefinition.java:80)\r\n\tat ✽.Given user is already on Login Page for \"TestCase_1\" with \"2\"(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:14)\r\n",
-  "status": "failed"
+  "duration": 113030732,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 51351,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 779621127,
+  "duration": 27941,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32472,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 14348,
+  "duration": 805385738,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21522,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 18124,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3052672537,
+  "duration": 2956467565,
   "status": "passed"
 });
 formatter.scenario({
@@ -286,33 +247,25 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 27412751,
+  "duration": 187118147,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 2483168009,
-  "status": "passed"
+  "duration": 14056558977,
+  "error_message": "java.lang.AssertionError: The user login failed!no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email1\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLB-332V0X2\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\SSwain5\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1258a500c182fcc082ec8d18c104c10d\n*** Element info: {Using\u003dname, value\u003demail1}\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:88)\r\n\tat ✽.Then user enters username and password(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:15)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 21032767,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 957985439,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 89109,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 90997,
+  "duration": 1035233962,
   "status": "passed"
 });
 });

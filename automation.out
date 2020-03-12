@@ -1,0 +1,28 @@
+2020-03-12 23:03:498 INFO  LoggerHelper:41 - Browser Launched!
+2020-03-12 23:03:78 INFO  LoggerHelper:43 - Application opened!
+2020-03-12 23:03:111 INFO  LoggerHelper:87 - no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email1']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\SSwain5\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7671b83b3d055d956be1a13b6dd5657a
+*** Element info: {Using=name, value=email1}
+2020-03-12 23:03:152 INFO  LoggerHelper:114 - Browser closed!
+2020-03-12 23:03:306 INFO  LoggerHelper:41 - Browser Launched!
+2020-03-12 23:03:841 INFO  LoggerHelper:43 - Application opened!
+2020-03-12 23:03:161 INFO  LoggerHelper:62 - Test Data Found is: {}
+2020-03-12 23:03:970 INFO  LoggerHelper:114 - Browser closed!
+2020-03-12 23:03:109 INFO  LoggerHelper:41 - Browser Launched!
+2020-03-12 23:03:707 INFO  LoggerHelper:43 - Application opened!
+2020-03-12 23:03:175 INFO  LoggerHelper:87 - no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email1']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\SSwain5\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1258a500c182fcc082ec8d18c104c10d
+*** Element info: {Using=name, value=email1}
+2020-03-12 23:03:214 INFO  LoggerHelper:114 - Browser closed!
