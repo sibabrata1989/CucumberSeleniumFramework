@@ -9,6 +9,3 @@ Feature: Free CRM Login Feature
         | TestCase_1   |  1        |
         | TestCase_1   |  2        |
         | TestCase_1   |  3        |
-
-
-

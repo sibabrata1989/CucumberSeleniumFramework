@@ -17,7 +17,7 @@ public class OR_1 {
     }
 
     By btnLogin = By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']");
-    By txtUserName = By.name("email1");
+    By txtUserName = By.name("email");
     By txtPassword = By.name("password");
     By btnSubmit = By.xpath("//div[@class='ui fluid large blue submit button']");
 

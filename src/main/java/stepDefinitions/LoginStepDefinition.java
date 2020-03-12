@@ -20,39 +20,38 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginStepDefinition {
 
-    WebDriver driver = null;
+    WebDriver driver;
     TestDataHandler testDataHandler;
-    String tcName = null;
     SoftAssert softassertion;
     Logger log = LoggerHelper.getLogger(LoggerHelper.class);
     OR_1 objectRepo;
     Map<String, String> testDataInMap;
 
     public void logStatusResult(String result) {
-        ExcelHandler.UpdateTestResultsToExcel(TestConfig.testDataDir + "TestData.xlsx", "Sheet1", result, testDataHandler.getTestCaseName(), testDataHandler.getIteration());
-
+        ExcelHandler.UpdateTestResultsToExcel(TestConfig.testDataDir + TestConfig.testDataFile, TestConfig.sheetName, result, testDataHandler.getTestCaseName(), testDataHandler.getIteration());
     }
 
     @Before
     public void setUp() {
         testDataHandler = new TestDataHandler();
-        TestConfig.SetCommonEnv();
-        driver = BrowserHelper.LaunchBrowser(driver);
-        log.info("Browser Launched!");
-        driver.get((TestConfig.appURL));
-        log.info("Application opened!");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         softassertion = new SoftAssert();
-        objectRepo = new OR_1(driver);
 
+        TestConfig.SetCommonEnv();
     }
 
     @Given("^user is already on Login Page for \"(.*)\" with \"(.*)\"$")
     public void userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String testCase, String iteration) {
         try {
-            testDataInMap = ExcelHandler.getTestDataInMap(TestConfig.testDataDir + "TestData.xlsx", "Sheet1", testCase, iteration);
+            testDataInMap = ExcelHandler.getTestDataInMap(TestConfig.testDataDir + TestConfig.testDataFile, TestConfig.sheetName, testCase, iteration);
             if (testDataInMap.size() > 0) {
+                TestConfig.setBrowser(testDataInMap.get("Browser"));
+                driver = BrowserHelper.LaunchBrowser(driver);
+                objectRepo = new OR_1(driver);
+                log.info("Browser Launched!");
+                driver.get((TestConfig.appURL));
+                log.info("Application opened!");
+                driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 objectRepo.verifyHomePage(testDataInMap);
                 //storing these variables values
                 testDataHandler.setTestDataInMap(testDataInMap);
@@ -69,6 +68,7 @@ public class LoginStepDefinition {
             logStatusResult("FAIL");
             Assert.fail("The user login failed!" + e.getMessage());
         }
+
 
     }
 
@@ -110,7 +110,9 @@ public class LoginStepDefinition {
 
     @After
     public void tearDown() {
-        driver.quit();
+        if(driver != null) {
+            driver.quit();
+        }
         log.info("Browser closed!");
     }
 

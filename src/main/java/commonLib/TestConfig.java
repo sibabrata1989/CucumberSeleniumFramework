@@ -11,6 +11,10 @@ public class TestConfig
 	public static String baseDir, testDataDir, testConfigDir, testResultDir, testResourcesDir,testRunDir;
 	public static  String browserEnv, driverPath;
 	public static  String appURL;
+	public static  String testDataFile;
+	public static  String sheetName;
+	static Properties props = new Properties();
+
 	
 	public static void SetCommonEnv()
 	{
@@ -25,22 +29,34 @@ public class TestConfig
 		//To create a folder name  like "Run_20170822_183800"
 		testRunDir = testResultDir + "Run_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + "/";
 		
-		Properties props = new Properties();
+
 		FileInputStream fis = new FileInputStream(testConfigDir + "testConfig.properties");
 		props.load(fis);
 		fis.close();
-		
-		browserEnv = props.getProperty("browserEnv"); // Load the Browser type as given in the property file
-		driverPath = testResourcesDir + props.getProperty("driverPath_" + browserEnv );// picks the driver browser key from the property file.
+
+
 		appURL = props.getProperty("CRMUrl");
+		testDataFile = props.getProperty("testDataFile");
+		sheetName = props.getProperty("sheetName");
 		
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
-		
+
 		
 	}
-	
+	public static void setBrowser(String browser)
+	{
+		if (browser == "") {
+			browserEnv = props.getProperty("browserEnv"); // Load the Browser type as given in the property file
+			driverPath = testResourcesDir + props.getProperty("driverPath_" + browserEnv );// picks the driver browser key from the property file.
+		}
+		else
+		{
+			browserEnv = browser;
+			driverPath = testResourcesDir + props.getProperty("driverPath_" + browserEnv );// picks the driver browser key from the property file.
+		}
+	}
 }
