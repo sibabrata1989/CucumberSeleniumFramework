@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="24.704447">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="7.96486">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="34.545097">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="7.270463">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "1"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="0.102638">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="0.138556">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "2"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="16.636949">
-<failure message="java.lang.AssertionError: The user login failed!Unable to find element with name == email (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities {browserName: internet explorer, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ie.useLegacyFileUploadDialogHandling: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19872/, nativeEvents: true, requireWindowFocus: false}, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}&#10;Session ID: ddfd91a8-91f0-469c-b523-8d736977d9bd&#10;*** Element info: {Using=name, value=email}&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:88)&#13;&#10;&#9;at ✽.Then user enters username and password(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:15)&#13;&#10;"><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
-Then user enters username and password......................................failed
-Then user clicks on login...................................................skipped
-
-StackTrace:
-java.lang.AssertionError: The user login failed!Unable to find element with name == email (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {browserName: internet explorer, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ie.useLegacyFileUploadDialogHandling: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19872/, nativeEvents: true, requireWindowFocus: false}, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
-Session ID: ddfd91a8-91f0-469c-b523-8d736977d9bd
-*** Element info: {Using=name, value=email}
-	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:88)
-	at ✽.Then user enters username and password(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:15)
-]]></failure>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="10.186335">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable" time="6.179496">
+<system-out><![CDATA[Given user is in the home page "TestCase_2" with "1"........................passed
+Then user enters email and phoneNumber......................................passed
+Then user clicks on SignUp..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 2" time="0.090604">
+<system-out><![CDATA[Given user is in the home page "TestCase_2" with "2"........................passed
+Then user enters email and phoneNumber......................................passed
+Then user clicks on SignUp..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 3" time="10.679643">
+<system-out><![CDATA[Given user is in the home page "TestCase_2" with "3"........................passed
+Then user enters email and phoneNumber......................................passed
+Then user clicks on SignUp..................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

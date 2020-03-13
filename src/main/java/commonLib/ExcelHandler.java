@@ -9,6 +9,7 @@ import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 
 public class ExcelHandler {
+    //Select multiple row data based on condition run = Yes , TestcaseID and Iteration
     public static Map<String, String> getTestDataInMap(String testDataFile, String sheetName, String testCaseId, String iteration) {
         Map<String, String> TestDataInMap = new TreeMap<String, String>();
         String query = null;

@@ -6,26 +6,44 @@
         "before": [
           {
             "result": {
-              "duration": 66102335,
+              "duration": 48744185,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.setUp()"
             }
+          },
+          {
+            "result": {
+              "duration": 380979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
           }
         ],
-        "line": 19,
+        "line": 9,
         "name": "Free CRM Login Test Scenario with datatable",
         "description": "",
         "id": "free-crm-login-feature;free-crm-login-test-scenario-with-datatable;;2",
         "after": [
           {
             "result": {
-              "duration": 1011432772,
+              "duration": 1104802489,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 368896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
             }
           }
         ],
@@ -34,10 +52,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4158392925,
+              "duration": 4240836961,
               "status": "passed"
             },
-            "line": 14,
+            "line": 4,
             "name": "user is already on Login Page for \"TestCase_1\" with \"1\"",
             "match": {
               "arguments": [
@@ -60,10 +78,10 @@
           },
           {
             "result": {
-              "duration": 2594441103,
+              "duration": 1739586979,
               "status": "passed"
             },
-            "line": 15,
+            "line": 5,
             "name": "user enters username and password",
             "match": {
               "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
@@ -72,10 +90,10 @@
           },
           {
             "result": {
-              "duration": 134490543,
+              "duration": 135742224,
               "status": "passed"
             },
-            "line": 16,
+            "line": 6,
             "name": "user clicks on login",
             "match": {
               "location": "LoginStepDefinition.userClicksOnLogin()"
@@ -88,26 +106,44 @@
         "before": [
           {
             "result": {
-              "duration": 573545,
+              "duration": 467445,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.setUp()"
             }
+          },
+          {
+            "result": {
+              "duration": 385888,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
           }
         ],
-        "line": 20,
+        "line": 10,
         "name": "Free CRM Login Test Scenario with datatable",
         "description": "",
         "id": "free-crm-login-feature;free-crm-login-test-scenario-with-datatable;;3",
         "after": [
           {
             "result": {
-              "duration": 406654,
+              "duration": 448944,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 394195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
             }
           }
         ],
@@ -116,10 +152,10 @@
         "steps": [
           {
             "result": {
-              "duration": 101579836,
+              "duration": 136674093,
               "status": "passed"
             },
-            "line": 14,
+            "line": 4,
             "name": "user is already on Login Page for \"TestCase_1\" with \"2\"",
             "match": {
               "arguments": [
@@ -142,10 +178,10 @@
           },
           {
             "result": {
-              "duration": 38136,
+              "duration": 146501,
               "status": "passed"
             },
-            "line": 15,
+            "line": 5,
             "name": "user enters username and password",
             "match": {
               "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
@@ -154,10 +190,10 @@
           },
           {
             "result": {
-              "duration": 40024,
+              "duration": 39268,
               "status": "passed"
             },
-            "line": 16,
+            "line": 6,
             "name": "user clicks on login",
             "match": {
               "location": "LoginStepDefinition.userClicksOnLogin()"
@@ -170,26 +206,44 @@
         "before": [
           {
             "result": {
-              "duration": 543716,
+              "duration": 522572,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.setUp()"
             }
+          },
+          {
+            "result": {
+              "duration": 447056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
           }
         ],
-        "line": 21,
+        "line": 11,
         "name": "Free CRM Login Test Scenario with datatable",
         "description": "",
         "id": "free-crm-login-feature;free-crm-login-test-scenario-with-datatable;;4",
         "after": [
           {
             "result": {
-              "duration": 629102275,
+              "duration": 2154391700,
               "status": "passed"
             },
             "match": {
               "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 308861,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
             }
           }
         ],
@@ -198,10 +252,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4286829714,
+              "duration": 5548756456,
               "status": "passed"
             },
-            "line": 14,
+            "line": 4,
             "name": "user is already on Login Page for \"TestCase_1\" with \"3\"",
             "match": {
               "arguments": [
@@ -224,11 +278,10 @@
           },
           {
             "result": {
-              "duration": 11720473456,
-              "error_message": "java.lang.AssertionError: The user login failed!Unable to find element with name \u003d\u003d email (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLB-332V0X2\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserName: internet explorer, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ie.useLegacyFileUploadDialogHandling: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19872/, nativeEvents: true, requireWindowFocus: false}, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: ddfd91a8-91f0-469c-b523-8d736977d9bd\n*** Element info: {Using\u003dname, value\u003demail}\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:88)\r\n\tat ✽.Then user enters username and password(C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature:15)\r\n",
-              "status": "failed"
+              "duration": 2378179751,
+              "status": "passed"
             },
-            "line": 15,
+            "line": 5,
             "name": "user enters username and password",
             "match": {
               "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
@@ -237,9 +290,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 103729026,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 6,
             "name": "user clicks on login",
             "match": {
               "location": "LoginStepDefinition.userClicksOnLogin()"
@@ -250,9 +304,319 @@
       }
     ],
     "name": "Free CRM Login Feature",
-    "description": "\r\n\r\n//Scenario Outline: Free CRM Login Test Scenario\r\n  //Given user is already on Login Page\r\n  //Then user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"\r\n // Then user clicks on login button\r\n\r\n // Examples:\r\n  //  | username | password |\r\n  //  | naveenk  | test@123 |",
+    "description": "",
     "id": "free-crm-login-feature",
     "keyword": "Feature",
-    "uri": "C:/Users/SSwain5/Documents/Others/CucumberBDDFramework/CucumberSeleniumFramework/src/main/java/Features/login.feature"
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 496142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 372294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Free CRM Sign up Test Scenario with datatable",
+        "description": "",
+        "id": "free-crm-signup-feature;free-crm-sign-up-test-scenario-with-datatable;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 317546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 941169497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2968882047,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the home page \"TestCase_2\" with \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase_2",
+                  "offset": 26
+                },
+                {
+                  "val": "1",
+                  "offset": 44
+                }
+              ],
+              "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1458944306,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters email and phoneNumber",
+            "match": {
+              "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 809314090,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on SignUp",
+            "match": {
+              "location": "SignUpStepDefination.userClicksOnSignUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 467068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 384755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Free CRM Sign up Test Scenario with datatable",
+        "description": "",
+        "id": "free-crm-signup-feature;free-crm-sign-up-test-scenario-with-datatable;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 258643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 203516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89237471,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the home page \"TestCase_2\" with \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase_2",
+                  "offset": 26
+                },
+                {
+                  "val": "2",
+                  "offset": 44
+                }
+              ],
+              "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26808,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters email and phoneNumber",
+            "match": {
+              "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26053,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on SignUp",
+            "match": {
+              "location": "SignUpStepDefination.userClicksOnSignUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 455741,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 318301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Free CRM Sign up Test Scenario with datatable",
+        "description": "",
+        "id": "free-crm-signup-feature;free-crm-sign-up-test-scenario-with-datatable;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 222018,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1994349880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignUpStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5662788910,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in the home page \"TestCase_2\" with \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestCase_2",
+                  "offset": 26
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2246194456,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters email and phoneNumber",
+            "match": {
+              "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 775313307,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on SignUp",
+            "match": {
+              "location": "SignUpStepDefination.userClicksOnSignUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Signup Feature",
+    "description": "",
+    "id": "free-crm-signup-feature",
+    "keyword": "Feature",
+    "uri": "signup.feature"
   }
 ]

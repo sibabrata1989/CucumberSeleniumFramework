@@ -62,6 +62,12 @@
              <artifactId>cucumber-reporting</artifactId>
              <version>5.0.2</version>
          </dependency>
+         <!-- https://mvnrepository.com/artifact/com.trivago.rta/cluecumber-report-plugin -->
+         <dependency>
+             <groupId>com.trivago.rta</groupId>
+             <artifactId>cluecumber-report-plugin</artifactId>
+             <version>2.3.4</version>
+         </dependency>
 
          <dependency>
              <groupId>info.cukes</groupId>
