@@ -1,22 +1,28 @@
-2020-03-14 00:03:633 INFO  LoggerHelper:73 - Browser Launched!
-2020-03-14 00:03:173 INFO  LoggerHelper:75 - Application opened!
-2020-03-14 00:03:384 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:385 INFO  LoggerHelper:97 - Browser closed!
-2020-03-14 00:03:530 INFO  LoggerHelper:48 - Test Data Found is: {}
-2020-03-14 00:03:534 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:535 INFO  LoggerHelper:97 - Browser closed!
-2020-03-14 00:03:497 INFO  LoggerHelper:73 - Browser Launched!
-2020-03-14 00:03:776 INFO  LoggerHelper:75 - Application opened!
-2020-03-14 00:03:729 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:729 INFO  LoggerHelper:97 - Browser closed!
-2020-03-14 00:03:965 INFO  LoggerHelper:73 - Browser Launched!
-2020-03-14 00:03:492 INFO  LoggerHelper:75 - Application opened!
-2020-03-14 00:03:981 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:922 INFO  LoggerHelper:97 - Browser closed!
-2020-03-14 00:03:17 INFO  LoggerHelper:44 - Test Data Found is: {}
-2020-03-14 00:03:20 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:21 INFO  LoggerHelper:97 - Browser closed!
-2020-03-14 00:03:817 INFO  LoggerHelper:73 - Browser Launched!
-2020-03-14 00:03:412 INFO  LoggerHelper:75 - Application opened!
-2020-03-14 00:03:713 INFO  LoggerHelper:105 - Browser closed!
-2020-03-14 00:03:708 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:139 INFO  LoggerHelper:73 - Browser Launched!
+2020-03-14 01:03:691 INFO  LoggerHelper:75 - Application opened!
+2020-03-14 01:03:413 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:415 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:605 INFO  LoggerHelper:48 - Test Data Found is: {}
+2020-03-14 01:03:612 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:614 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:698 INFO  LoggerHelper:73 - Browser Launched!
+2020-03-14 01:03:46 INFO  LoggerHelper:75 - Application opened!
+2020-03-14 01:03:896 INFO  LoggerHelper:75 - Element <a class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left" href="https://ui.freecrm.com"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 53416, moz:profile: C:\Users\SSwain5\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e073bcf-d66b-4b39-a873-8c26f3d82513
+2020-03-14 01:03:757 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:759 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:182 INFO  LoggerHelper:73 - Browser Launched!
+2020-03-14 01:03:633 INFO  LoggerHelper:75 - Application opened!
+2020-03-14 01:03:757 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:846 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:16 INFO  LoggerHelper:44 - Test Data Found is: {}
+2020-03-14 01:03:20 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:21 INFO  LoggerHelper:97 - Browser closed!
+2020-03-14 01:03:05 INFO  LoggerHelper:73 - Browser Launched!
+2020-03-14 01:03:639 INFO  LoggerHelper:75 - Application opened!
+2020-03-14 01:03:439 INFO  LoggerHelper:105 - Browser closed!
+2020-03-14 01:03:389 INFO  LoggerHelper:97 - Browser closed!

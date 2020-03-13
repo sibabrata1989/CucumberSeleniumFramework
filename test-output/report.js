@@ -71,11 +71,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 48744185,
+  "duration": 61964425,
   "status": "passed"
 });
 formatter.before({
-  "duration": 380979,
+  "duration": 567505,
   "status": "passed"
 });
 formatter.scenario({
@@ -119,37 +119,37 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 4240836961,
+  "duration": 5185108662,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 1739586979,
+  "duration": 4924196480,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 135742224,
+  "duration": 189510500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1104802489,
+  "duration": 1262640370,
   "status": "passed"
 });
 formatter.after({
-  "duration": 368896,
+  "duration": 405900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 467445,
+  "duration": 559575,
   "status": "passed"
 });
 formatter.before({
-  "duration": 385888,
+  "duration": 434218,
   "status": "passed"
 });
 formatter.scenario({
@@ -193,37 +193,37 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 136674093,
+  "duration": 183285702,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 146501,
+  "duration": 291115,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 39268,
+  "duration": 56637,
   "status": "passed"
 });
 formatter.after({
-  "duration": 448944,
+  "duration": 577699,
   "status": "passed"
 });
 formatter.after({
-  "duration": 394195,
+  "duration": 569769,
   "status": "passed"
 });
 formatter.before({
-  "duration": 522572,
+  "duration": 787256,
   "status": "passed"
 });
 formatter.before({
-  "duration": 447056,
+  "duration": 737416,
   "status": "passed"
 });
 formatter.scenario({
@@ -267,29 +267,29 @@ formatter.match({
   "location": "LoginStepDefinition.userIsAlreadyOnLoginPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 5548756456,
+  "duration": 6702443212,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userEntersUsernameAndPassword()"
 });
 formatter.result({
-  "duration": 2378179751,
-  "status": "passed"
+  "duration": 571609163,
+  "error_message": "java.lang.AssertionError: The user login failed!Element \u003ca class\u003d\"btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left\" href\u003d\"https://ui.freecrm.com\"\u003e could not be scrolled into view\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SLB-332V0X2\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 53416, moz:profile: C:\\Users\\SSwain5\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2e073bcf-d66b-4b39-a873-8c26f3d82513\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:76)\r\n\tat ✽.Then user enters username and password(login.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefinition.userClicksOnLogin()"
 });
 formatter.result({
-  "duration": 103729026,
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 2849367873,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2154391700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 308861,
+  "duration": 576566,
   "status": "passed"
 });
 formatter.uri("signup.feature");
@@ -365,11 +365,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 496142,
+  "duration": 957168,
   "status": "passed"
 });
 formatter.before({
-  "duration": 372294,
+  "duration": 760825,
   "status": "passed"
 });
 formatter.scenario({
@@ -413,37 +413,37 @@ formatter.match({
   "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 2968882047,
+  "duration": 3152160952,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
 });
 formatter.result({
-  "duration": 1458944306,
+  "duration": 1755617932,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userClicksOnSignUp()"
 });
 formatter.result({
-  "duration": 809314090,
+  "duration": 1064833285,
   "status": "passed"
 });
 formatter.after({
-  "duration": 317546,
+  "duration": 604507,
   "status": "passed"
 });
 formatter.after({
-  "duration": 941169497,
+  "duration": 1089484032,
   "status": "passed"
 });
 formatter.before({
-  "duration": 467068,
+  "duration": 859752,
   "status": "passed"
 });
 formatter.before({
-  "duration": 384755,
+  "duration": 802737,
   "status": "passed"
 });
 formatter.scenario({
@@ -487,37 +487,37 @@ formatter.match({
   "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 89237471,
+  "duration": 157279061,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
 });
 formatter.result({
-  "duration": 26808,
+  "duration": 32472,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userClicksOnSignUp()"
 });
 formatter.result({
-  "duration": 26053,
+  "duration": 80047,
   "status": "passed"
 });
 formatter.after({
-  "duration": 258643,
+  "duration": 274502,
   "status": "passed"
 });
 formatter.after({
-  "duration": 203516,
+  "duration": 282430,
   "status": "passed"
 });
 formatter.before({
-  "duration": 455741,
+  "duration": 444790,
   "status": "passed"
 });
 formatter.before({
-  "duration": 318301,
+  "duration": 334914,
   "status": "passed"
 });
 formatter.scenario({
@@ -561,29 +561,29 @@ formatter.match({
   "location": "SignUpStepDefination.userIsOnSignUpPageForTestCaseNameWithIteration(String,String)"
 });
 formatter.result({
-  "duration": 5662788910,
+  "duration": 6883645800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userEntersEmailAndPhoneNumber()"
 });
 formatter.result({
-  "duration": 2246194456,
+  "duration": 3575461244,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpStepDefination.userClicksOnSignUp()"
 });
 formatter.result({
-  "duration": 775313307,
+  "duration": 946265706,
   "status": "passed"
 });
 formatter.after({
-  "duration": 222018,
+  "duration": 513888,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1994349880,
+  "duration": 2948662590,
   "status": "passed"
 });
 });
