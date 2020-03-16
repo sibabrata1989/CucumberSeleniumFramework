@@ -6,6 +6,6 @@ Feature: Free CRM Signup Feature
     Then user clicks on SignUp
     Examples:
       |testCaseName  | iteration |
-      | TestCase_2   |  1        |
-      | TestCase_2   |  2        |
-      | TestCase_2   |  3        |
+      | TestCase_3   |  1        |
+      | TestCase_3   |  2        |
+      | TestCase_3   |  3        |

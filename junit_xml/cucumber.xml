@@ -1,48 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="43.515049">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="11.624394">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="83.640915">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable" time="16.971454">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "1"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="0.185775">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 2" time="0.162362">
 <system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "2"...............passed
 Then user enters username and password......................................passed
 Then user clicks on login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="10.125521">
-<failure message="java.lang.AssertionError: The user login failed!Element &lt;a class=&quot;btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left&quot; href=&quot;https://ui.freecrm.com&quot;&gt; could not be scrolled into view&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 53416, moz:profile: C:\Users\SSwain5\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2e073bcf-d66b-4b39-a873-8c26f3d82513&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:76)&#13;&#10;&#9;at ✽.Then user enters username and password(login.feature:5)&#13;&#10;"><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
-Then user enters username and password......................................failed
-Then user clicks on login...................................................skipped
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 3" time="14.854632">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_1" with "3"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 4" time="14.255389">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_2" with "1"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 5" time="0.152426">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_2" with "2"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario with datatable 6" time="17.766175">
+<system-out><![CDATA[Given user is already on Login Page for "TestCase_2" with "3"...............passed
+Then user enters username and password......................................passed
+Then user clicks on login...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable" time="12.054084">
+<failure message="java.lang.AssertionError: The user Signup details entering failed!Element &lt;a class=&quot;btn btn-sm btn-white btn-icon btn-icon-left btn-shadow btn-border btn-rect offset-sm-top-60 offset-top-30&quot; href=&quot;https://register.freecrm.com/register/&quot;&gt; is not clickable at point (951,322) because another element &lt;div class=&quot;rd-parallax-layer&quot;&gt; obscures it&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14680, moz:profile: C:\Users\SSwain5\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f719780f-f2a3-4cd4-8c4f-1729a5385185&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#13;&#10;&#9;at stepDefinitions.SignUpStepDefination.userEntersEmailAndPhoneNumber(SignUpStepDefination.java:69)&#13;&#10;&#9;at ✽.Then user enters email and phoneNumber(signup.feature:5)&#13;&#10;"><![CDATA[Given user is in the home page "TestCase_3" with "1"........................passed
+Then user enters email and phoneNumber......................................failed
+Then user clicks on SignUp..................................................skipped
 
 StackTrace:
-java.lang.AssertionError: The user login failed!Element <a class="btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left" href="https://ui.freecrm.com"> could not be scrolled into view
+java.lang.AssertionError: The user Signup details entering failed!Element <a class="btn btn-sm btn-white btn-icon btn-icon-left btn-shadow btn-border btn-rect offset-sm-top-60 offset-top-30" href="https://register.freecrm.com/register/"> is not clickable at point (951,322) because another element <div class="rd-parallax-layer"> obscures it
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SLB-332V0X2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 53416, moz:profile: C:\Users\SSwain5\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2e073bcf-d66b-4b39-a873-8c26f3d82513
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14680, moz:profile: C:\Users\SSwain5\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f719780f-f2a3-4cd4-8c4f-1729a5385185
 	at org.junit.Assert.fail(Assert.java:89)
-	at stepDefinitions.LoginStepDefinition.userEntersUsernameAndPassword(LoginStepDefinition.java:76)
-	at ✽.Then user enters username and password(login.feature:5)
+	at stepDefinitions.SignUpStepDefination.userEntersEmailAndPhoneNumber(SignUpStepDefination.java:69)
+	at ✽.Then user enters email and phoneNumber(signup.feature:5)
 ]]></failure>
 </testcase>
-<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable" time="7.064419">
-<system-out><![CDATA[Given user is in the home page "TestCase_2" with "1"........................passed
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 2" time="7.267333">
+<system-out><![CDATA[Given user is in the home page "TestCase_3" with "2"........................passed
 Then user enters email and phoneNumber......................................passed
 Then user clicks on SignUp..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 2" time="0.159611">
-<system-out><![CDATA[Given user is in the home page "TestCase_2" with "2"........................passed
-Then user enters email and phoneNumber......................................passed
-Then user clicks on SignUp..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 3" time="14.355329">
-<system-out><![CDATA[Given user is in the home page "TestCase_2" with "3"........................passed
+<testcase classname="Free CRM Signup Feature" name="Free CRM Sign up Test Scenario with datatable 3" time="0.15706">
+<system-out><![CDATA[Given user is in the home page "TestCase_3" with "3"........................passed
 Then user enters email and phoneNumber......................................passed
 Then user clicks on SignUp..................................................passed
 ]]></system-out>

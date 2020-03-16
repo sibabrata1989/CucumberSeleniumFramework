@@ -24,8 +24,8 @@ public class OR_Login {
         String title = driver.getTitle();
         assertEquals(testDataInMap.get("PageTitle"), title);
     }
-    public void login(Map<String,String> testDataInMap)
-    {
+    public void login(Map<String,String> testDataInMap) throws InterruptedException {
+        Thread.sleep(2000);
         driver.findElement(btnLogin).click();
         driver.findElement(txtUserName).sendKeys(testDataInMap.get("UserName"));
         driver.findElement(txtPassword).sendKeys(testDataInMap.get("Password"));
